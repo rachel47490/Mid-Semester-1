@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Rachel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="mainstyles.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Rachel's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Self-Motivation Video Section -->
+    <section class="container py-5">
+        <h2 class="text-center fw-bold mb-4">Self-Motivation Video</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="ratio ratio-16x9 shadow rounded overflow-hidden bg-dark">
+                    <video class="w-100 h-100" controls playsinline>
+                        <source src="citizen.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p class="text-center text-muted mt-2">My motivation and goals in software engineering.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Grid -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">Photo Gallery & Projects</h2>
+            <div class="row g-4 align-items-stretch">
+                <div class="col-md-4">
+                    <div class="card shadow-sm border-0 h-100">
+                        <img src="screenshot1.jpeg" class="card-img-top" alt="Portfolio website displayed on my laptop" style="height: 280px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">My Portfolio in the Browser</h5>
+                            <p class="card-text text-muted">Previewing the portfolio website I built on my laptop.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm border-0 h-100 border border-2 border-info">
+                        <img src="WhatsApp%20Image%202026-10-19%20at%201.06.48%20PM.jpeg" class="card-img-top" alt="Discussion with my friends" style="height: 280px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Discussing with Friends</h5>
+                            <p class="card-text text-muted">Sharing ideas and discussing with my friends.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm border-0 h-100">
+                        <img src="screenshot2.jpeg" class="card-img-top" alt="Editing portfolio code in Visual Studio Code on my laptop" style="height: 280px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Coding My Portfolio</h5>
+                            <p class="card-text text-muted">Working on the website code in Visual Studio Code.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Rachel. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
